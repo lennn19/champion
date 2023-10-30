@@ -37,20 +37,20 @@ Selanjutnya menguraikan seluruh variabel atau fitur pada data
 
 ### Variabel-variabel pada Global Video Game Sales adalah sebagai berikut:
 
-Player           (Menunjukan nama player)    (object)
-Team             (Menunjukan nama team)    (object)
-Nationality      (Menunjukan negara player)    (object)
-Kill             (Menunjukan jumlah kill yang didapat player)    (int64)
-Death            (Menunjukan total death player)    (int64)
-K/D              (Menunjukan total kill dan death player)   (float64) 
-KAST             (Menunjukan total kill, death, assist dan survival tracker)    (object)
-Prize            (Menunjukan jumlah hadiah yang didapat juara)    (object)
-Role             (Menunjukan role yang dimainkan player)    (object)
-HS %             (Menunjukan headshot ratio player)    (float64)
-Rounds Played    (Menunjukan total permainan)    (int64)
-Rounds Win       (Menunjukan total kemenangan yang dimainkan)    (int64)
-Rounds Lose      (Menunjukan total kekalahan yang di mainkan)    (int64)
-Rank             (Menunjukan peringkat team)    (object)
+-Player           :Menunjukan nama player = object
+-Team             :Menunjukan nama team = object
+-Nationality      :Menunjukan negara player = object
+-Kill             :Menunjukan jumlah kill yang didapat player = int64
+-Death            :Menunjukan total death player = int64
+-K/D              :Menunjukan total kill dan death player = float64 
+-KAST             :Menunjukan total kill, death, assist dan survival tracker = object
+-Prize            :Menunjukan jumlah hadiah yang didapat juara = object
+-Role             :Menunjukan role yang dimainkan player = object
+-HS %             :Menunjukan headshot ratio player = float64
+-Rounds Played    :Menunjukan total permainan = int64
+-Rounds Win       :Menunjukan total kemenangan yang dimainkan = int64
+-Rounds Lose      :Menunjukan total kekalahan yang di mainkan = int64
+-Rank             :Menunjukan peringkat team = object
 
 ## Data Preparation
 
