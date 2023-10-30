@@ -101,15 +101,15 @@ lalu kita download datasetsnya
 Selanjutnya extract file yang tadi telah didownload
 
 ```bash
-!mkdir mobile-price-prediction
-!unzip mobile-price-prediction.zip -d mobile-price-prediction
-!ls mobile-price-prediction
+!mkdir -p shihouinyoruichi/valorant-champions-2022-istanbul-stats
+!unzip valorant-champions-2022-istanbul-stats.zip -d shihouinyoruichi/valorant-champions-2022-istanbul-stats
+!ls shihouinyoruichi/valorant-champions-2022-istanbul-stats
 ```
 
 Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable, dan melihat 5 data paling atas dari datasetsnya
 
 ```bash
-df = pd.read_csv("/content/mobile-price-prediction/Cellphone.csv")
+df = pd.read_csv('/content/shihouinyoruichi/valorant-champions-2022-istanbul-stats/valorant champions istanbul.csv')
 df.head()
 ```
 
